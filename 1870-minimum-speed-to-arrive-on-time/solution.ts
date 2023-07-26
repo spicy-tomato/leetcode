@@ -1,5 +1,5 @@
 function minSpeedOnTime(dist: number[], hour: number): number {
-  if (dist.length - 1 > hour) return -1;
+  if (dist.length - 1 >= hour) return -1;
 
   let left = 1;
   let right = 10 ** 7;
