@@ -7,7 +7,7 @@ export class ListNode {
   }
 }
 
-function arrayToListNode(arr: number[]) {
+export function arrayToListNode(arr: number[]) {
   const head = new ListNode(arr[0]);
   let node = head;
 
